@@ -5,7 +5,7 @@
   "main": "provisionComposer.js",
   "license": "MIT",
   "scripts": {
-    "start": "node provisionComposer.js"
+    "start": "node init && node provisionComposer.js"
   },
   "dependencies": {
     "@azure/arm-appinsights": "^2.1.0",
